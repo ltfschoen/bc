@@ -2,11 +2,30 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 # What's In This Document
 
+* [Quick Start](#quick-start)
 * [Get Started in 5 Minutes](#get-started-in-5-minutes)
 * [Directory Structure](#directory-structure)
 * [Editing Content](#editing-content)
 * [Adding Content](#adding-content)
 * [Full Documentation](#full-documentation)
+
+# Quick Start
+
+```
+nvm use v11.14.0
+yvm use 1.16.0
+npm install --global docusaurus-init
+docusaurus-init
+cd website
+yarn
+yarn outdated
+yarn upgrade docusaurus --latest
+NO_PROXY=localhost
+BABEL_DISABLE_CACHE=1
+yarn run start
+```
+
+Go to http://localhost:3000
 
 # Get Started in 5 Minutes
 
